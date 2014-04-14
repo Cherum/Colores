@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://www.cherum.de/Colores" version="1.0.0" viewmodes="fullscreen">
+    <tizen:application id="VWf1dIIaYi.Colores" package="VWf1dIIaYi" required_version="2.2"/>
+    <author href="http://www.cherum.de" email="gamesupport@cherum.de"/>
+    <content src="index.html"/>
+    <!-- <feature name="http://tizen.org/feature/screen.size.normal.480.800"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.720.1280"/> -->
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="icon.png"/>
+    <name>Colores</name>
+    <preference name="screen-orientation" value="portrait" readonly="false"/>
+    <tizen:setting screen-orientation="portrait" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
